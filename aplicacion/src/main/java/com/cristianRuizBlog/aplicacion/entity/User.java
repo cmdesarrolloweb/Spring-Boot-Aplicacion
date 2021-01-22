@@ -54,7 +54,6 @@ public class User implements Serializable {
 	
 	
 	@Transient
-	@NotBlank
 	private String confirmPassword;
 	
 	@ManyToMany(fetch = FetchType.LAZY)
